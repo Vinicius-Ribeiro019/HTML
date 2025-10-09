@@ -1,0 +1,32 @@
+.button:houver {
+    background-color: blue;
+    color: white;
+}
+
+input:focus {
+    border: 2px solid green;
+    background-color: red;
+    outline: solid 2px yellow;
+}
+
+p:first-child {
+    font-weight: bold;
+}
+li:last-child {
+    color: red;
+}
+
+tr:nth-child(even) {
+    background-color: #bbb;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}   
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
